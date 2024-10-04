@@ -5,7 +5,7 @@ import MovieList from './components/MovieList';
 import MovieListHeading from './components/MovieListHeading';
 import SearchBox from './components/SearchBox';
 
-const Huh = () => {
+const Huh0 = () => {
 	const [movies, setMovies] = useState([]);
 	const [favourites, setFavourites] = useState([]);
 	const [searchValue, setSearchValue] = useState('');
@@ -102,4 +102,4 @@ const Huh = () => {
 	);
 };
 
-export default Huh;
+export default Huh0;

@@ -4,7 +4,7 @@ import AddFavourite from './components/AddFovourites';
 
 import ShowMovie2 from './components/ShowMovie2';
 
-const Huh = () => {
+const Huh2 = () => {
 	const [movies, setMovies] = useState([]);
 	const [favourites, setFavourites] = useState([]);
 	const [searchValue, setSearchValue] = useState('');
@@ -74,4 +74,4 @@ const Huh = () => {
 	);
 };
 
-export default Huh
+export default Huh2
