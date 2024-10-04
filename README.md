@@ -52,7 +52,7 @@ Go to the project directory
 
 
 ```bash
-  cd frontend
+  In the main project directory
 ```
 
 Install dependencies
