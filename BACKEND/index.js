@@ -7,7 +7,7 @@ import dotenv from "dotenv";
 
 
 import cookieParser from "cookie-parser"
-import authRoutes from "./routes/auth.Routes.js"
+import authRoutes from "./routes/auth.routes.js"
 
 
 

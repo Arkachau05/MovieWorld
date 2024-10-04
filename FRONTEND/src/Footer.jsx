@@ -6,13 +6,10 @@ const Footer = () => {
         <footer className="bg-black text-white py-10">
             <div className="max-w-6xl mx-auto px-6">
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-10">
-                    {/* Brand Section */}
                     <div className="text-center md:text-left">
                         <h1 className="text-4xl font-bold text-yellow-400">MovieWorld📺</h1>
                         <p className="text-gray-400 mt-2">Your gateway to the world of cinema.</p>
                     </div>
-
-                    {/* Navigation Links */}
                     <div className="text-center md:text-left">
                         <h2 className="text-yellow-300 font-semibold mb-2">Quick Links</h2>
                         <ul className="text-gray-400">
@@ -30,8 +27,6 @@ const Footer = () => {
                             </li>
                         </ul>
                     </div>
-
-                    {/* Newsletter Section */}
                     <div className="text-center">
                         <h2 className="text-yellow-300 font-semibold mb-2">Subscribe to Our Newsletter</h2>
                         <form className="flex justify-center">
@@ -46,8 +41,6 @@ const Footer = () => {
                         </form>
                     </div>
                 </div>
-
-                {/* Social Media Icons */}
                 <div className="flex justify-center mb-6">
                     <a href="#" className="mx-3 text-gray-400 hover:text-yellow-400 transition duration-200">
                         <FaFacebookF />
@@ -63,7 +56,6 @@ const Footer = () => {
                     </a>
                 </div>
 
-                {/* Quick Help Section */}
                 <div className="flex flex-col md:flex-row justify-center md:justify-between mb-6">
                     <div className="text-center md:text-left mb-4 md:mb-0">
                         <h3 className="text-yellow-300 font-semibold mb-1">Need Help?</h3>
@@ -74,8 +66,6 @@ const Footer = () => {
                         <p className="text-gray-400">Stay updated with our latest news!</p>
                     </div>
                 </div>
-
-                {/* Copyright */}
                 <div className="border-t border-gray-700 pt-6 text-center">
                     <p className="text-gray-400">
                         &copy; {new Date().getFullYear()} MovieWorld. All rights reserved.
