@@ -12,7 +12,7 @@ import authRoutes from "./routes/auth.routes.js"
 
 
 
-const __dirname = path.resolve();
+
 dotenv.config();
 
 
@@ -60,11 +60,7 @@ const reviewSchema = new mongoose.Schema({
     }
   });
 
-  app.use(express.static(path.join(__dirname, "/frontend/dist")));
 
-  app.get("*", (req, res) => {
-      res.sendFile(path.join(__dirname, "frontend", "dist", "index.html"));
-  });
 
 
 
