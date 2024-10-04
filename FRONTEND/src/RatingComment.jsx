@@ -60,7 +60,7 @@ const RatingComment = () => {
         : 0;
 
     return (
-        <div className="min-h-screen bg-black flex justify-center items-center p-4">
+        <div className=" bg-black flex justify-center items-center p-4">
             <div className="bg-gray-900 text-yellow-300 p-6 rounded-lg shadow-lg border border-yellow-400 w-full max-w-sm">
                 
                 <div className="text-center mb-5">
