@@ -11,7 +11,7 @@ const RatingComment = () => {
 
     useEffect(() => {
         // Fetch all reviews when the component mounts
-        axios.get('http://localhost:3000/api/reviews')
+        axios.get('https://movieworld-1.onrender.com/api/reviews')
             .then((response) => {
                 setReviews(response.data);
             })
@@ -38,7 +38,7 @@ const RatingComment = () => {
         const newReview = { rating, comment, name };
 
         // Send the new review to the backend
-        axios.post('http://localhost:3000/api/reviews', newReview)
+        axios.post('https://movieworld-1.onrender.com/api/reviews', newReview)
             .then((response) => {
                 setReviews([...reviews, newReview]);
                 setComment('');
