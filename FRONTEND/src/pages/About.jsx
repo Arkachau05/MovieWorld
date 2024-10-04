@@ -20,7 +20,7 @@ const About = () => {
                 <section className="mb-8 bg-gray-900 p-6 rounded-lg">
                     <h2 className="text-3xl font-semibold text-yellow-300 text-center">Our History</h2>
                     <p className="mt-4 text-lg text-gray-300 text-center">
-                        Founded in 2023, MovieWorld started as a small project aimed at simplifying movie discovery. Over the years, we have grown into a comprehensive platform featuring movie reviews, ratings, and a personalized favorites system.
+                        Founded in 2024, MovieWorld started as a small project aimed at simplifying movie discovery. Over the years, we have grown into a comprehensive platform featuring movie reviews, ratings, and a personalized favorites system.
                     </p>
                 </section>
 

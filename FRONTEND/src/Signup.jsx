@@ -43,7 +43,7 @@ const SignUp = () => {
                         </label>
                         <input
                             type='text'
-                            placeholder='John Doe'
+                            placeholder='Enter Full Name'
                             className='shadow-md appearance-none border border-yellow-300 rounded w-full py-2 px-3 text-yellow-300 bg-black leading-tight focus:outline-none focus:ring focus:ring-yellow-500'
                             value={inputs.fullName}
                             onChange={(e) => setInputs({ ...inputs, fullName: e.target.value })}
@@ -57,7 +57,7 @@ const SignUp = () => {
                         </label>
                         <input
                             type='text'
-                            placeholder='johndoe'
+                            placeholder='Enter the UserName'
                             className='shadow-md appearance-none border border-yellow-300 rounded w-full py-2 px-3 text-yellow-300 bg-black leading-tight focus:outline-none focus:ring focus:ring-yellow-500'
                             value={inputs.username}
                             onChange={(e) => setInputs({ ...inputs, username: e.target.value })}
