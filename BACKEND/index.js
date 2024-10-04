@@ -1,3 +1,4 @@
+import path from "path"
 import express from "express";
 import mongoose from "mongoose";
 import cors from 'cors';
@@ -11,7 +12,7 @@ import authRoutes from "./routes/auth.Routes.js"
 
 
 
-
+const __dirname = path.resolve();
 dotenv.config();
 
 
@@ -59,7 +60,11 @@ const reviewSchema = new mongoose.Schema({
     }
   });
 
+  app.use(express.static(path.join(__dirname, "/frontend/dist")));
 
+  app.get("*", (req, res) => {
+      res.sendFile(path.join(__dirname, "frontend", "dist", "index.html"));
+  });
 
 
 
