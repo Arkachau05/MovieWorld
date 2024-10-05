@@ -8,7 +8,7 @@ import Huh3 from './huh3';
 import Huh2 from './Huh2';
 import Navbar from './navbar';
 import Footer from './Footer';
-import Huh0 from './huh';
+import Huh0 from './Huh';
 
 
 
@@ -22,8 +22,8 @@ const Home2 = () => {
 <Navbar/>
       
    <Huh0/>
-   <Huh3/>
    <Huh2/>
+   <Huh3/>
   <Footer/>
     </div>
     
