@@ -12,7 +12,7 @@ const Detail = () => {
     const [error, setError] = useState(null);
 
     const getDetails = async () => {
-        const url = `http://www.omdbapi.com/?i=${imdbID}&apikey=263d22d8`;
+        const url = `https://www.omdbapi.com/?i=${imdbID}&apikey=263d22d8`;
         try {
             const response = await fetch(url);
             if (!response.ok) throw new Error('Network response was not ok');
